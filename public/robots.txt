@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# The staff dashboard and the sign-in screens hold nothing a search engine
+# should index, and every one of them sends a noindex header of its own.
+Disallow: /admin
+Disallow: /signin
+Disallow: /reset-password
+
+Sitemap: https://alpenglow-retreat.vercel.app/sitemap.xml
